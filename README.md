@@ -34,4 +34,4 @@ GitHub → Jenkins → Docker → EC2 Deployment
 
 ## 📸 Future Improvements
 - Kubernetes deployment
-- Monitoring with CloudWatch
+- Monitoring with CloudWatch or Grafana/Prometheus
