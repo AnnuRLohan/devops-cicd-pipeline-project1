@@ -11,8 +11,8 @@ pipeline {
         stage('Run Container') {
             steps {
                 sh '''
-              docker stop mycontainer || true
-        docker rm mycontainer || true
+              docker stop intelligent_meitner || true
+        docker rm intelligent_meitner || true
         docker run -d -p 5000:5000 --name mycontainer myapp
           '''
             }
