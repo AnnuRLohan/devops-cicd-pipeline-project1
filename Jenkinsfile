@@ -2,11 +2,6 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/AnnuRLohan/devops-cicd-pipeline-project1.git'
-            }
-        }
 
         stage('Build') {
             steps {
